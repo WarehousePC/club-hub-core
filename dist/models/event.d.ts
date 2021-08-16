@@ -22,6 +22,7 @@ declare namespace Event {
         groupID?: Types.ObjectId;
         calendarID?: Types.ObjectId;
         calendarIDs?: Types.ObjectId[];
+        calendarEventID?: string;
         images?: Image.Model[];
         image?: Image.Model;
         clubID?: Types.ObjectId;
